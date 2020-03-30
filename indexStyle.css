@@ -3,6 +3,7 @@
   margin: 0;
   color: #fff;
   scroll-behavior: smooth;
+  background-color: #9E62FF;
 }
 
 .clr {
@@ -130,7 +131,6 @@ li:hover {
 /* Footer Section */
 
 footer {
-  height: 75vh;
   background-color: #9E62FF;
 }
 
@@ -142,4 +142,70 @@ footer {
   padding-top: 40px;
 }
 
-  
+
+.footer .contact-icons  {
+  text-align: center;
+  display: block;
+  font-size: 1.5em;
+}
+
+.contact-icons a{
+  text-decoration: none;
+}
+
+.contact-icons .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 2px;
+}
+
+.contact-icons>a{
+  width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.fa-linkedin, .fa-github, .fa-twitter {
+  background: #333;
+  color: white;
+}
+
+.fa-linkedin:hover {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github:hover {
+  background: #fff;
+  color: #000;
+}
+
+.fa-twitter:hover {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.contact-icons #divider {
+ font-size: 2em;
+}
+
+p.foot-text{
+  text-align: center;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+.footer hr {
+  margin: 10px 80px 10px 80px;
+  background: #efefef;
+}
+
+.foot-text .fa-heart {
+  color: #f44336;
+} 
