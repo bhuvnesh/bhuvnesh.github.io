@@ -1,3 +1,3 @@
-# bhuvnesh-dev.github.io
+# bhuvnesh.github.io
 
 MY PORTFOLIO WEBSITE
